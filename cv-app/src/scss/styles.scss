@@ -36,10 +36,15 @@ body{
         display: flex;
         gap: 40px;
         li{
+            cursor: pointer;
             a{
                 color: $white;
                 text-decoration: none;
                 font-weight: 500;
+                transition: all .3s;
+                &:hover{
+                    opacity: .6;
+                }
             }
         }
     }
