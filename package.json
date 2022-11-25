@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "autoprefixer": "^10.4.13"
+  },
+  "dependencies": {
+    "sass": "^1.56.1"
   }
 }
