@@ -143,14 +143,15 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 3.5rem;
+  row-gap: 2.5rem;
 }
 .main__text {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  row-gap: 2.5em;
+  padding: 2% 0;
   font-weight: 700;
-  line-height: 140%;
+  line-height: 350%;
   text-align: center;
   letter-spacing: -0.5px;
 }
@@ -159,10 +160,13 @@ p {
 }
 .main__text :nth-child(2) {
   font-size: 2em;
+  line-height: 160%;
 }
 .main__text :nth-child(3) {
   font-size: 1.2em;
   font-weight: 500;
+  line-height: 150%;
+  padding-top: 2%;
 }
 .main__text P {
   font-size: 3.8em;
