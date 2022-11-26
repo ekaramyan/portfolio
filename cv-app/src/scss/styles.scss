@@ -17,7 +17,7 @@ header{
     padding: 1% 5%;
     align-items: center;
 }
-.wrapper{
+.header-nav{
     display: flex;
     position: fixed;
     width: 100%;
@@ -98,11 +98,16 @@ p{
         }
     }
     &__btn{
+        cursor: pointer;
         padding: 2% 3%;
         background: $accent;
         color: $white;
         line-height: 1.5em;
         border-radius: 5px;
+        transition: all .3s;
+        &:hover{
+            opacity:.6;
+        }
     }
 }
 
