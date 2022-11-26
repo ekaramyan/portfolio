@@ -4,7 +4,7 @@
 @import '_reset';
 
 $dark-bg: #171718;
-$header-color: #26292D;
+$dark-border: #26292D;
 $white: #fff;
 $accent: #5C62EC;
 
@@ -20,7 +20,8 @@ header{
 .wrapper{
     display: flex;
     flex-direction: row;
-    background: $header-color;
+    background: $dark-bg;
+    border-bottom: $dark-border 1px solid;
 }
 body{
    background: $dark-bg;

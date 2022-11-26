@@ -91,7 +91,8 @@ header {
 .wrapper {
   display: flex;
   flex-direction: row;
-  background: #26292D;
+  background: #171718;
+  border-bottom: #26292D 1px solid;
 }
 
 body {
