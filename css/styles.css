@@ -90,6 +90,8 @@ header {
 
 .wrapper {
   display: flex;
+  position: fixed;
+  width: 100%;
   flex-direction: row;
   background: #171718;
   border-bottom: #26292D 1px solid;
@@ -127,4 +129,48 @@ body {
 
 p {
   color: #fff;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.main__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3.5rem;
+}
+.main__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5em;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+.main__text span {
+  color: #5C62EC;
+}
+.main__text :nth-child(2) {
+  font-size: 2em;
+}
+.main__text :nth-child(3) {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.main__text P {
+  font-size: 3.8em;
+}
+.main__btn {
+  padding: 2% 3%;
+  background: #5C62EC;
+  color: #fff;
+  line-height: 1.5em;
+  border-radius: 5px;
 }

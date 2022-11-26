@@ -3,14 +3,14 @@ import React, { Component } from 'react'
 export default class Content1 extends Component {
     render() {
         return (
-            <main>
+            <main className='main'>
                 <div className="main__wrapper">
-                    <div>
+                    <div className='main__text'>
                         <p>Hi, my name is <span>Edward</span></p>
-                        <p></p>
-                        <p></p>
+                        <p>a frontend developer</p>
+                        <p>with passion to lear</p>
                     </div>
-                    <button></button>
+                    <button className='main__btn'>Download CV</button>
                 </div>
             </main>
         )
